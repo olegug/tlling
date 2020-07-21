@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     while (counter > 0) {
-        counter = -1
+        counter = 1
         basic.pause(1000)
     }
 })
